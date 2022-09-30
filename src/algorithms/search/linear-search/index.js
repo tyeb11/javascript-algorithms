@@ -2,7 +2,7 @@ class LinearSearch {
   constructor() {
     this.arr = [3, 2, 8, 5, 1, 2, 7];
   }
-  find(value) {
+  search(value) {
     const foundIndexes = [];
     this.arr.forEach((element, index) => {
       if (element == value) {
